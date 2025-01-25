@@ -4,7 +4,3 @@ matplotlib:   3.9.2
 keras:        3.7.0
 scikit-learn: 1.5.2
 tensorflow:   2.18.0
-
-When I transferred the code into colab, two problems occurred.
-1. I received a "Wait this page has crashed message". This was probably due to the many calculations that were being done. I just reloaded the page a couple times and it would continue to run and took about 7-9 minutes.
-2. Some files might need to be switched around. Colab didn't like me uploading the A4data folder which holds A4train and A4val. I had to create that folder separately and move those in.
